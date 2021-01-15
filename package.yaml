@@ -1,0 +1,14 @@
+name: stack-issue5473
+version: 0.0.0
+category: acme
+
+dependencies:
+  - base
+  - clash-ghc
+
+source-dirs:
+  - src
+
+executables:
+  foo: 
+    main: main.hs
